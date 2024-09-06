@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid;
+}
+</style>
+</head>
+<body>
+
+<h2>Add a border to a table: Duong Tuan Nghia-2021050472</h2>
+
+<table>
+  <tr>
+    <th>Firstname Duong Tuan Nghia-2021050472</th>
+    <th>Lastname Duong Tuan Nghia-2021050472</th>
+  </tr>
+  <tr>
+    <td>Peter Duong Tuan Nghia-2021050472</td>
+    <td>Griffin Duong Tuan Nghia-2021050472</td>
+  </tr>
+  <tr>
+    <td>Lois Duong Tuan Nghia-2021050472</td>
+    <td>Griffin Duong Tuan Nghia-2021050472</td>
+  </tr>
+</table>
+table {
+    width: 100%;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table {
+    border: 1px solid;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  } 
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: coral;}
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+</body>
+</html>
