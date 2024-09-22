@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul>
+  <li><a href="#home">Home Duong Tuan Nghia 2021050472</a></li>
+  <li><a href="#news">News Duong Tuan Nghia 2021050472</a></li>
+  <li><a href="#contact">Contact Duong Tuan Nghia 2021050472</a></li>
+  <li><a href="#about">About Duong Tuan Nghia 2021050472</a></li>
+</ul>
+
+<p>Note: We use href="#" for test links. In a real web site this would be URLs. Duong Tuan Nghia 2021050472</p>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<p>A background color is added to the links to show the link area. Duong Tuan Nghia 2021050472</p>
+<p>Notice that the whole link area is clickable, not just the text. Duong Tuan Nghia 2021050472</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+
+li a {
+  display: block;
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home Duong Tuan Nghia 2021050472</a></li>
+  <li><a href="#news">News Duong Tuan Nghia 2021050472</a></li>
+  <li><a href="#contact">Contact Duong Tuan Nghia 2021050472</a></li>
+  <li><a href="#about">About Duong Tuan Nghia 2021050472</a></li>
+</ul>
+
+<p>A background color is added to the links to show the link area. Duong Tuan Nghia 2021050472</p>
+<p>Notice that the whole link area is clickable, not just the text. Duong Tuan Nghia 2021050472</p>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  ul {
+    border: 1px solid #555;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  ul {
+    background-color: #dddddd;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  ul {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li a {
+    color: #666;
+  }
+</body>
+</html>

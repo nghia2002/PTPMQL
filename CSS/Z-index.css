@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading Duong Tuan Nghia 2021050472</h1>
+<img src="img_tree.png">
+<p>Because the image has a z-index of -1, it will be placed behind the text. Duong Tuan Nghia 2021050472</p>
+
+</body>
+</html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="black-box">Black box</div>
+  <div class="gray-box">Gray box</div>
+  <div class="green-box">Green box</div>
+</div>
+
+</body>
+</html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="black-box">Black box</div>
+  <div class="gray-box">Gray box</div>
+  <div class="green-box">Green box</div>
+</div>
+
+</body>
+</html>

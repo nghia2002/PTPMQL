@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a[target] {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute] Selector Duong Tuan Nghia-2021050472</h2>
+<p>The links with a target attribute gets a yellow background: Duong Tuan Nghia-2021050472</p>
+
+<a href="https://www.w3schools.com">w3schools.com Duong Tuan Nghia-2021050472</a>
+<a href="http://www.disney.com" target="_blank">disney.com Duong Tuan Nghia-2021050472</a>
+<a href="http://www.wikipedia.org" target="_top">wikipedia.org Duong Tuan Nghia-2021050472</a>
+a[target="_blank"] {
+    background-color: yellow;
+  }
+  [title~="flower"] {
+    border: 5px solid yellow;
+  }
+  [class|="top"] {
+    background: yellow;
+  }
+  [class^="top"] {
+    background: yellow;
+  }
+  [class$="test"] {
+    background: yellow;
+  }
+  [class*="te"] {
+    background: yellow;
+  }
+  input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+  }
+  
+  input[type="button"] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+  }
+</body>
+</html>

@@ -1,0 +1,90 @@
+<html>
+<head>
+  <style>
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p>Hello World! Duong Tuan Nghia-2021050472</p>
+
+</body>
+</html>
+<html>
+<head>
+  <style>
+    .test {color: green;}
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p class="test">Hello World! Duong Tuan Nghia-2021050472</p>
+
+</body>
+</html>
+<html>
+<head>
+  <style>
+    #demo {color: blue;}
+    .test {color: green;}
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p id="demo" class="test">Hello World! Duong Tuan Nghia-2021050472</p>
+
+</body>
+</html>
+<html>
+<head>
+  <style>
+    #demo {color: blue;}
+    .test {color: green;}
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p id="demo" class="test" style="color: pink;">Hello World! Duong Tuan Nghia-2021050472</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {background-color: yellow;}
+h1 {background-color: red;}
+</style>
+</head>
+<body>
+/*From external CSS file:*/
+#content h1 {background-color: red;}
+
+/*In HTML file:*/
+<style>
+#content h1 {background-color: yellow;}
+</style>
+
+<h1>This is heading 1 Duong Tuan Nghia-2021050472</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.intro {background-color: yellow;}
+h1 {background-color: red;}
+</style>
+</head>
+<body>
+
+<h1 class="intro">This is a heading Duong Tuan Nghia-2021050472</h1>
+
+</body>
+</html>
+
+</body>
+</html>
+
+
